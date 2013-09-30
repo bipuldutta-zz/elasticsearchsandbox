@@ -1,0 +1,13 @@
+{
+    "mappings" :
+    {
+        "properties":
+        {
+            "ssn":
+            {
+                "type":"string",
+                "analyzer" : "ssn_analyzer"
+            }
+        }
+    }
+}
